@@ -22,13 +22,13 @@ const props = defineProps({
 
     <div class="pokemon-infos">
       <span class="pokemon-infos-flag">#{{ props.pokemon.id }}</span>
-      <RouterLink :to="/pokemon/ + pokemon.id">
+      <RouterLink :to="/pokemon/ + props.pokemon.id">
         {{ props.pokemon.name }}
       </RouterLink>
     </div>
 
     <div class="pokemon-details">
-      <RouterLink :to="/pokemon/ + pokemon.id">Detalhes</RouterLink>
+      <RouterLink :to="/pokemon/ + props.pokemon.id">Detalhes</RouterLink>
     </div>
   </div>
 </template>
