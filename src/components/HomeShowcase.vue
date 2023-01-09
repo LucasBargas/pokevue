@@ -115,11 +115,8 @@ section {
   }
 
   @media (max-width: 480px) {
-    gap: 1rem;
-  }
-
-  @media (max-width: 414px) {
     grid-template-columns: 1fr;
+    gap: 1rem;
   }
 }
 .loading {

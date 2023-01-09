@@ -44,7 +44,7 @@ const props = defineProps({
   border: 2px solid #e23b31;
   border-radius: 1rem;
   box-shadow: 5px 5px 12px rgba(0, 0, 0, .5);
-  min-height: 340px;
+  min-height: 370px;
 
   img {
     width: 100%;
