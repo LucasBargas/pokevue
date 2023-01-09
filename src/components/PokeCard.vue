@@ -47,7 +47,9 @@ const props = defineProps({
   min-height: 340px;
 
   img {
-    height: 120px;
+    width: 100%;
+    height: 100%;
+    max-width: 150px;
   }
 
   &-infos {

@@ -46,11 +46,11 @@ onUnmounted(() => {
 </script>
 
 <template>
-  <div v-if="state.isLoading" class="loading">
+  <div v-if="state.isLoading">
     <AppLoading />
   </div>
 
-  <template v-if="!state.isLoading">
+  <template v-else>
     <section>
       <PokeCard
         v-for="pokemon in data"
