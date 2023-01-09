@@ -9,7 +9,7 @@ const state = reactive({isLoading: false});
 state.isLoading = true;
 setTimeout(() => {
   state.isLoading = false;
-}, 1000);
+}, 500);
 </script>
 
 <template>
