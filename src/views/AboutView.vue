@@ -32,12 +32,12 @@ setTimeout(() => {
           >
             Hora de Codar
           </a>
-          , onde o mesmo desenvolveu este projeto com Nextjs.
+          , no youtube, onde o mesmo desenvolveu este projeto com Nextjs.
         </p>
 
         <p>
           Para estudo decidi fazer este projeto com Vuejs, framework no qual
-          estudo estudando empenhadamente.
+          estou estudando empenhadamente.
         </p>
 
         <h2>Para mais informações</h2>
