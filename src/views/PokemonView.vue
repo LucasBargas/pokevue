@@ -21,7 +21,6 @@ onMounted(async () => {
     return;
   }
 
-  console.log(json.types)
   state.isLoading = false;
   data.value = json;
 })
