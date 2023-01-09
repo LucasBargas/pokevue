@@ -33,8 +33,8 @@
       height: 35px;
       margin: 8px;
       border-radius: 50%;
-      border: 6px solid black;
-      border-color: black transparent black transparent;
+      border: 6px solid #333333;
+      border-color: #333333 transparent #333333 transparent;
       animation: loading-icon-animation 1s linear infinite;
     }
   }

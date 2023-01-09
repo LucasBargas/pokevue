@@ -43,7 +43,6 @@ import HomeShowcase from '../components/HomeShowcase.vue';
 
         &::after {
           content: 'Vue';
-          color: #333333;
         }
       }
     }
