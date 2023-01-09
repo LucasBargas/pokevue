@@ -91,6 +91,7 @@ setTimeout(() => {
 
     h2 {
       margin: 1rem 0 .5rem 0;
+      font-size: 1.5rem;
     }
 
     ul {
