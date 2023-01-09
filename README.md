@@ -1,29 +1,24 @@
-# pokevue
+## Projeto PokeVue
+O projeto **PokeVue** foi desenvolvido para estudo por mim, Lucas Bargas, com base em um layout disponibilizado pelo Matheus Battisti, do hora de codar, no youtube, onde o mesmo desenvolveu este projeto com Nextjs. Para estudo decidi fazer este projeto com Vuejs, framework no qual estou estudando empenhadamente.
 
-This template should help get you started developing with Vue 3 in Vite.
+### Link para visualizar o projeto
+<https://pokevue-lbs.vercel.app/>
 
-## Recommended IDE Setup
+### Por que fiz este projeto?
+Tenho já há alguns meses, no mínimo 7, estudado Reactjs e frameworks dentro do seu ecossistema como o Nextjs. Admito desde então sentir um carinho especial por essas tecnologias. Mas vi a importância que é expandir meus conhecimentos e aprender outras bibliotecas ou frameworks, decidi então começar a estudar o Vuejs e aplicar os conhecimentos que adquiri até o momento com este projeto.
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+### Tecnologias utilizadas
+#### Front end
+* Vuejs;
+* SCSS.
 
-## Customize configuration
+### Prints do App (Versões Desktop e Mobile)
 
-See [Vite Configuration Reference](https://vitejs.dev/config/).
+#### Página inicial
+<img alt="Página de filmes mais populares" src="https://i.ibb.co/L0Lhpy7/pokevue-home.png">
 
-## Project Setup
+#### Página individual de Pokémon
+<img alt="Página de filmes mais populares" src="https://i.ibb.co/bzVC3G2/pokevue-pokemon.png">
 
-```sh
-npm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
-```
-
-### Compile and Minify for Production
-
-```sh
-npm run build
-```
+#### Página de Sobre
+<img alt="Página de filmes melhores avaliados" src="https://i.ibb.co/KxL8xQR/pokevue-about.png">
