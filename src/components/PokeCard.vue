@@ -79,6 +79,7 @@ const props = defineProps({
     a {
       display: inline-block;
       background: #fff;
+      color: #333;
       font-weight: 700;
       padding: .7rem 1.2rem;
       border-radius: 5px;
