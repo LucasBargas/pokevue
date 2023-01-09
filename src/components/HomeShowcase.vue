@@ -2,6 +2,7 @@
 import { ref, onMounted, onUnmounted, reactive } from 'vue';
 import AppLoading from './AppLoading.vue';
 import PokeCard from './PokeCard.vue';
+import logo from '../assets/images/pokeball.png'
 
 const state = reactive({ isLoading: false, maxPokemons: 40 })
 const data = ref(null);
@@ -51,6 +52,13 @@ onUnmounted(() => {
   </div>
 
   <template v-else>
+    <div class="home-title">
+      <figure>
+        <h1>Poke</h1>
+        <img :src="logo" alt="PokeVue - logo" />
+      </figure>
+    </div>
+
     <section>
       <PokeCard
         v-for="pokemon in data"
@@ -62,6 +70,32 @@ onUnmounted(() => {
 </template>
 
 <style scoped lang="scss">
+  .home-title {
+    display: flex;
+    justify-content: center;
+
+    figure {
+      display: flex;
+      align-items: center;
+      gap: .5rem;
+
+      img {
+        width: 3rem;
+        height: 3rem;
+      }
+
+      h1 {
+        color: #e23b31;
+        font-size: 2.5rem;
+
+        &::after {
+          content: 'Vue';
+          color: #333333;
+        }
+      }
+    }
+  }
+
 section {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
