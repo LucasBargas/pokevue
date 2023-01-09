@@ -44,10 +44,11 @@ setTimeout(() => {
 
     h1 {
       margin-bottom: 1rem;
+      font-size: 1.75rem;
     }
 
     img {
-      max-width: 180px;
+      max-width: 220px;
     }
   }
 }

@@ -16,7 +16,7 @@ import TheFooter from './layouts/TheFooter.vue';
 
 <style>
 #app {
-  min-height: calc(100vh + 2rem);
+  min-height: calc(100vh + 100px);
   display: flex;
   flex-direction: column;
 }
