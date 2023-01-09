@@ -3,12 +3,17 @@ import { RouterLink } from 'vue-router';
 import logo from '../../assets/images/pokeball.png'
 
 const props = defineProps({
-  handleNavActive: Function,
+  navOpenened: Object,
 })
+
+const handleClick = () => {
+  if (!props.navOpenened.opened) return;
+  props.navOpenened.opened = false;
+}
 </script>
 
 <template>
-  <figure @click="props.handleNavActive">
+  <figure @click="handleClick">
     <RouterLink to="/">
       <img :src="logo" alt="PokeVue - logo" />
       <h2>PokeVue</h2>

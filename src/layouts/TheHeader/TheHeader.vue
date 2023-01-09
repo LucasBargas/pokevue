@@ -15,7 +15,7 @@ const handleNavActive = () => {
   <header class="header">
     <AppContainer>
       <div class="header-wrapper">
-        <TheHeaderLogo :handleNavActive="handleNavActive" />
+        <TheHeaderLogo :navOpenened="navOpenened" />
 
         <nav
           ref="nav"

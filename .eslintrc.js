@@ -27,5 +27,6 @@ module.exports = {
     'vue/require-default-prop': 'off',
     'vue/no-v-html': 'off',
     'no-param-reassign': 'off',
+    'vue/no-mutating-props': 'off',
   },
 };
