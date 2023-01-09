@@ -82,6 +82,8 @@ onMounted(async () => {
       color: #ffffff;
       text-align: center;
       padding: .25rem;
+      margin-bottom: .5rem;
+      border-radius: 4px;
     }
 
     &-id {
