@@ -15,10 +15,10 @@ Tenho já há alguns meses, no mínimo 7, estudado Reactjs e frameworks dentro d
 ### Prints do App (Versões Desktop e Mobile)
 
 #### Página inicial
-<img alt="Página de filmes mais populares" src="https://i.ibb.co/L0Lhpy7/pokevue-home.png">
+<img alt="Página inicial" src="https://i.ibb.co/L0Lhpy7/pokevue-home.png">
 
 #### Página individual de Pokémon
-<img alt="Página de filmes mais populares" src="https://i.ibb.co/bzVC3G2/pokevue-pokemon.png">
+<img alt="Página individual de Pokémon" src="https://i.ibb.co/bzVC3G2/pokevue-pokemon.png">
 
 #### Página de Sobre
-<img alt="Página de filmes melhores avaliados" src="https://i.ibb.co/KxL8xQR/pokevue-about.png">
+<img alt="Página de Sobre" src="https://i.ibb.co/KxL8xQR/pokevue-about.png">
